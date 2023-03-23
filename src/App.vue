@@ -5,6 +5,7 @@ import ClassAndStyleBindings from './components/ClassAndStyleBindings.vue';
 import ComputedProperties from './components/ComputedProperties.vue';
 import EventHandling from './components/EventHandling.vue';
 import FormInputBinding from './components/FormInputBinding.vue';
+import LifecycleHooks from './components/LifecycleHooks.vue';
 import ListRendering from './components/ListRendering.vue';
 import TemplateSyntax from './components/TemplateSyntax.vue';
 
@@ -90,6 +91,7 @@ function mutateDeeply(){
   <ListRendering></ListRendering>
   <EventHandling></EventHandling>
   <FormInputBinding></FormInputBinding>
+  <LifecycleHooks></LifecycleHooks>
 </template>
 
 <style scoped></style>
