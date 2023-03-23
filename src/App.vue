@@ -3,6 +3,8 @@ import { reactive } from 'vue';
 import { ref } from 'vue';
 import ClassAndStyleBindings from './components/ClassAndStyleBindings.vue';
 import ComputedProperties from './components/ComputedProperties.vue';
+import EventHandling from './components/EventHandling.vue';
+import ListRendering from './components/ListRendering.vue';
 import TemplateSyntax from './components/TemplateSyntax.vue';
 
 const count = ref(10)
@@ -84,6 +86,8 @@ function mutateDeeply(){
   <ComputedProperties></ComputedProperties>
   <TemplateSyntax></TemplateSyntax>
   <ClassAndStyleBindings></ClassAndStyleBindings>
+  <ListRendering></ListRendering>
+  <EventHandling></EventHandling>
 </template>
 
 <style scoped></style>
