@@ -8,6 +8,9 @@ import FormInputBinding from './components/FormInputBinding.vue';
 import LifecycleHooks from './components/LifecycleHooks.vue';
 import ListRendering from './components/ListRendering.vue';
 import TemplateSyntax from './components/TemplateSyntax.vue';
+import Watchers from './components/Watchers.vue';
+import TemplateRefs from './components/TemplateRefs.vue';
+import ComponentsBasics from './components/ComponentsBasics.vue';
 
 const count = ref(10)
 const objRef = ref({count:0})
@@ -92,6 +95,10 @@ function mutateDeeply(){
   <EventHandling></EventHandling>
   <FormInputBinding></FormInputBinding>
   <LifecycleHooks></LifecycleHooks>
+  <Watchers></Watchers>
+  <TemplateRefs></TemplateRefs>
+  <ComponentsBasics></ComponentsBasics>
+
 </template>
 
 <style scoped></style>
